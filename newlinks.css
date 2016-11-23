@@ -1,0 +1,120 @@
+.refresh {
+display:block;
+margin:-6px 0 5px 0;
+}
+body {
+	background:url(bg.gif);
+	margin:0;
+	padding:0;
+}
+#wrapper {
+}
+
+#xiit {
+	width:100%;
+	height:100%;
+	background:url(bg.gif);
+	position:fixed;
+	z-index:3000;
+}
+
+.ladataan {
+	position:absolute;
+	width:200px;
+	height:60px;
+	left:50%;
+	top:50%;
+	margin-left:-100px;
+	margin-top:-100px;
+	color:#777777;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ladataan img {
+	margin:0 15px -7px 0;
+}
+a {
+	color:#777;
+	text-decoration:none;
+	-webkit-transition: all 0.22s ease-out;
+	-moz-transition: all 0.22s ease-out;
+	-o-transition: all 0.22s ease-out;
+}
+a:visited {
+opacity:0.5 !important;
+-moz-opacity:0.5 !important;
+}
+
+#prkl {
+	border:1px solid #dddddd;
+	padding:15px 10px 15px 15px;
+	margin:40px auto;
+	width:600px;
+	overflow:visible;
+	background:#ffffff;
+
+}
+.imgbox {
+	margin:0;
+	width:600px;
+	overflow:hidden;
+}
+.imgbox img {
+	width:100%;
+	height:auto;
+	border:0;
+	padding:0;
+	text-align:center;
+	position:relative;
+	z-index:10;
+}
+.imgbox img.naamapalmu {
+	margin:0;
+}
+.imgbox img.riemurasia {
+	margin:0 0 -40px 0;
+}
+.imgbox img.naurunappula {
+	margin:0 0 -32px 0;
+}
+.imgbox img.kuvaton {
+	margin:-15px 0 0 0;
+}
+
+
+.imgbox a {
+	-webkit-transition: all 0.22s ease-out;
+	-moz-transition: all 0.22s ease-out;
+	-o-transition: all 0.22s ease-out;
+}
+.imgbox a:visited {
+	border:1px solid red;
+}
+.imgbox a:hover {
+	background:#aaaaaa;
+}
+footer {
+	margin:10px auto;
+	color:#777777;
+	font-size:11px;
+	font-family: 'Open Sans', sans-serif;
+	width:870px;
+	text-align:center;
+}
+#screenshot img {
+	max-width:550px;
+	height:auto;
+}
+#screenshot{
+	position:absolute;
+	border:0;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	margin:62px 0 0 -49px;
+}
+footer a:hover {
+	color:#333333;
+}
